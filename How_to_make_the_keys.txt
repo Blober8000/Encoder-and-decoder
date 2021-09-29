@@ -1,0 +1,25 @@
+if you don't know what I mean by a key it basicaly is a version of the alphabet all messed up to encode your message.
+there are 2 mais ways I use to create keys being the 1st one the safest yet most "dangerous" one because if you accidentaly repeat a letter or don't put all of them it'll break the code. The second one being the faster (to create) yet the least safe because it's easier to crack this one.
+
+1st one is by smashing the keyboard completly random and making sure all leters are on that list and they don't repeat themselvesor you'll have a bad time when decoding.
+example: alksnzpmerfxdcvtyuqwiojhgb I wouldn't recommend using this one because someonme can use it to crack your coded messages
+
+
+the 2nd one is by pasting 2 alphabets together and then chosing a letter to start of
+tutorial
+
+step 1: abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz
+
+
+step 2: abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz
+			  ^
+
+step 3: abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz
+			  abcdefghijklmnopqrstuvwxyz
+
+step 4: stuvwxyzabcdefghijklmnopqr
+	abcdefghijklmnopqrstuvwxyz
+
+step 5: stuvwxyzabcdefghijklmnopqr Congrats you have your key now!
+
+both methods can be used to create number keys and letter keys.
