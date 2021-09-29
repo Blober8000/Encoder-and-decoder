@@ -1,25 +1,210 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31702.278
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "encoder", "encoder\encoder.csproj", "{DA2B22CE-7BBA-4785-800E-2F6C2A4398C5}"
-EndProject
-Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DA2B22CE-7BBA-4785-800E-2F6C2A4398C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DA2B22CE-7BBA-4785-800E-2F6C2A4398C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DA2B22CE-7BBA-4785-800E-2F6C2A4398C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DA2B22CE-7BBA-4785-800E-2F6C2A4398C5}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {7177929E-0AE7-4229-8704-3DE0B3B3277D}
-	EndGlobalSection
-EndGlobal
+string ToTranslate;
+            string Translate = "";
+            //here are both the keys that you need to add to use this code
+            string key = "";
+            string numberkey = "";
+            ToTranslate = Console.ReadLine();
+            ToTranslate = ToTranslate.ToLower();
+            do
+            {
+                if (ToTranslate[0] == 'a')
+                {
+                    Translate = Translate + key[0];
+                }
+                else if (ToTranslate[0] == 'b')
+                {
+                    Translate = Translate + key[1];
+                }
+                else if (ToTranslate[0] == 'c')
+                {
+                    Translate = Translate + key[2];
+                }
+                else if (ToTranslate[0] == 'd')
+                {
+                    Translate = Translate + key[3];
+                }
+                else if (ToTranslate[0] == 'e')
+                {
+                    Translate = Translate + key[4];
+                }
+                else if (ToTranslate[0] == 'f')
+                {
+                    Translate = Translate + key[5];
+                }
+                else if (ToTranslate[0] == 'g')
+                {
+                    Translate = Translate + key[6];
+                }
+                else if (ToTranslate[0] == 'h')
+                {
+                    Translate = Translate + key[7];
+                }
+                else if (ToTranslate[0] == 'i')
+                {
+                    Translate = Translate + key[8];
+                }
+                else if (ToTranslate[0] == 'j')
+                {
+                    Translate = Translate + key[9];
+                }
+                else if (ToTranslate[0] == 'k')
+                {
+                    Translate = Translate + key[10];
+                }
+                else if (ToTranslate[0] == 'l')
+                {
+                    Translate = Translate + key[11];
+                }
+                else if (ToTranslate[0] == 'm')
+                {
+                    Translate = Translate + key[12];
+                }
+                else if (ToTranslate[0] == 'n')
+                {
+                    Translate = Translate + key[13];
+                }
+                else if (ToTranslate[0] == 'o')
+                {
+                    Translate = Translate + key[14];
+                }
+                else if (ToTranslate[0] == 'p')
+                {
+                    Translate = Translate + key[15];
+                }
+                else if (ToTranslate[0] == 'q')
+                {
+                    Translate = Translate + key[16];
+                }
+                else if (ToTranslate[0] == 'r')
+                {
+                    Translate = Translate + key[17];
+                }
+                else if (ToTranslate[0] == 's')
+                {
+                    Translate = Translate + key[18];
+                }
+                else if (ToTranslate[0] == 't')
+                {
+                    Translate = Translate + key[19];
+                }
+                else if (ToTranslate[0] == 'u')
+                {
+                    Translate = Translate + key[20];
+                }
+                else if (ToTranslate[0] == 'v')
+                {
+                    Translate = Translate + key[21];
+                }
+                else if (ToTranslate[0] == 'w')
+                {
+                    Translate = Translate + key[22];
+                }
+                else if (ToTranslate[0] == 'x')
+                {
+                    Translate = Translate + key[23];
+                }
+                else if (ToTranslate[0] == 'y')
+                {
+                    Translate = Translate + key[24];
+                }
+                else if (ToTranslate[0] == 'z')
+                {
+                    Translate = Translate + key[25];
+                }
+                else if (ToTranslate[0] == ' ')
+                {
+                    Translate = Translate + " ";
+                }
+                else if (ToTranslate[0] == '?')
+                {
+                    Translate = Translate + "?";
+                }
+                else if (ToTranslate[0] == ',')
+                {
+                    Translate = Translate + ",";
+                }
+                else if (ToTranslate[0] == '\'')
+                {
+                    Translate = Translate + "'";
+                }
+                else if (ToTranslate[0] == '.')
+                {
+                    Translate = Translate + ".";
+                }
+                else if (ToTranslate[0] == '!')
+                {
+                    Translate = Translate + "!";
+                }
+                else if (ToTranslate[0] == ';')
+                {
+                    Translate = Translate + ";";
+                }
+                else if (ToTranslate[0] == '[')
+                {
+                    Translate = Translate + "[";
+                }
+                else if (ToTranslate[0] == ']')
+                {
+                    Translate = Translate + "]";
+                }
+                else if (ToTranslate[0] == '@')
+                {
+                    Translate = Translate + "@";
+                }
+                else if (ToTranslate[0] == '(')
+                {
+                    Translate = Translate + "(";
+                }
+                else if (ToTranslate[0] == ')')
+                {
+                    Translate = Translate + ")";
+                }
+                else if (ToTranslate[0] == '"')
+                {
+                    Translate = Translate + "\"";
+                }
+                else if (ToTranslate[0] == '0')
+                {
+                    Translate = Translate + numberkey[0];
+                }
+                else if (ToTranslate[0] == '1')
+                {
+                    Translate = Translate + numberkey[1];
+                }
+                else if (ToTranslate[0] == '2')
+                {
+                    Translate = Translate + numberkey[2];
+                }
+                else if (ToTranslate[0] == '3')
+                {
+                    Translate = Translate + numberkey[3];
+                }
+                else if (ToTranslate[0] == '4')
+                {
+                    Translate = Translate + numberkey[4];
+                }
+                else if (ToTranslate[0] == '5')
+                {
+                    Translate = Translate + numberkey[5];
+                }
+                else if (ToTranslate[0] == '6')
+                {
+                    Translate = Translate + numberkey[6];
+                }
+                else if (ToTranslate[0] == '7')
+                {
+                    Translate = Translate + numberkey[7];
+                }
+                else if (ToTranslate[0] == '8')
+                {
+                    Translate = Translate + numberkey[8];
+                }
+                else if (ToTranslate[0] == '9')
+                {
+                    Translate = Translate + numberkey[9];
+                }
+                ToTranslate = ToTranslate.Remove(0, 1);
+            } while (ToTranslate != "");
+            Console.WriteLine(Translate);
+            Console.ReadLine();
